@@ -9,6 +9,7 @@ import com.example.lab_week_06.Adapter.CatAdapter
 import com.example.lab_week_06.model.*
 import kotlin.getValue
 import androidx.appcompat.app.AlertDialog
+import androidx.recyclerview.widget.ItemTouchHelper
 
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = catAdapter
 
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
+
+        val itemTouchHelper = ItemTouchHelper(catAdapter.swipeToDeleteCallBack)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
 
         catAdapter.setData(
             listOf(
