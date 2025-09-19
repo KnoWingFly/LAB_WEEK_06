@@ -56,6 +56,69 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Aegean,
+                    "Aglaea",
+                    "Weaver Of Gold",
+                    "https://cdn2.thecatapi.com/images/uvt2Psd9O.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BritishLonghair,
+                    "Lumpy Space Princess",
+                    "Princess Cat",
+                    "https://cdn2.thecatapi.com/images/7isAO4Cav.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.Sphynx,
+                    "Punkie",
+                    "Hairless Cat",
+                    "https://cdn2.thecatapi.com/images/HBWdtLpif.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.DragonLi,
+                    "Dan Heng",
+                    "Soaring Dragon without Restraint",
+                    "https://cdn2.thecatapi.com/images/DUxU01IY5.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.TurkishAngora,
+                    "Taro (Miyo Sasaki)",
+                    "A Whisker Away",
+                    "https://cdn2.thecatapi.com/images/DYOqsRy9f.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.JapaneseBobtail,
+                    "Daijin",
+                    "Suzume",
+                    "https://cdn2.thecatapi.com/images/-tm9-znzl.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Mainecoon,
+                    "Coconut",
+                    "Nekopara (I'm out of ideas for reference)",
+                    "https://cdn2.thecatapi.com/images/Wq_eTQalE.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.KhaoManee,
+                    "Laurier",
+                    "Nekopara Catboy",
+                    "https://cdn2.thecatapi.com/images/165ok6ESN.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ScotishFold,
+                    "Cinnamon",
+                    "Nekopara (again)",
+                    "https://cdn2.thecatapi.com/images/dkN5wGUxC.jpg"
                 )
             )
         )

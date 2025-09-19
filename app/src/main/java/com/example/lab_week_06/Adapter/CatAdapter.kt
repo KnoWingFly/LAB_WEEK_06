@@ -53,7 +53,6 @@ class CatAdapter (
             viewHolder: RecyclerView.ViewHolder,
             target: RecyclerView.ViewHolder
         ): Boolean {
-            // We don't need drag-and-drop, so we return false.
             return false
         }
 

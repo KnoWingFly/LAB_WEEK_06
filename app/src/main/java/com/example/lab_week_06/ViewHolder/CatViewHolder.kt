@@ -48,6 +48,15 @@ class CatViewHolder(
             CatBreed.AmericanCurl -> "Amreican Curl"
             CatBreed.BalineseJavanese -> "Balinese-Javanese"
             CatBreed.ExoticShorthair -> "Exotic Shorthair"
+            CatBreed.Aegean -> "Aegean"
+            CatBreed.BritishLonghair -> "British Longhair"
+            CatBreed.Sphynx -> "Sphynx"
+            CatBreed.DragonLi -> "Dragon Li"
+            CatBreed.TurkishAngora -> "Turkish Angora"
+            CatBreed.JapaneseBobtail -> "Japanese Bobtail"
+            CatBreed.Mainecoon -> "Maine Coon"
+            CatBreed.KhaoManee -> "Khao Manee"
+            CatBreed.ScotishFold -> "Scotish Fold"
         }
         catBiographyView.text = cat.biography
         catGenderView.text = when (cat.gender){
